@@ -389,7 +389,7 @@ section:nth-child(even){
     size: landscape;
 }
 .myTable { background-color:#eee;border-collapse:collapse;width: auto;height: auto;}
-            .myTable th { background-color:#000;color:white;width:auto; }
+            .myTable th { background-color: #2b0318;color:white;width:auto; }
             .myTable td, .myTable th { padding:5px;border:1px solid #000; }
 
 
