@@ -543,7 +543,7 @@ section:nth-child(even){
     position: absolute;
     top:-4rem; left: 50%;
     transform:translateX(-50%);
-    background:var(--green);
+    background:#2b0318;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
     height: 25rem;
