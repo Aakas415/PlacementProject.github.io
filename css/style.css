@@ -535,6 +535,7 @@ section:nth-child(even){
     line-height: 1.8;
     font-size: 1.6rem;
     padding-top: 4rem;
+   
 }
 
 .review .box-container .box::before{
