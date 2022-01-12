@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
 :root{
-    --green:#16a085;
+    --green:#2b0318;
     --black:#444;
     --light-color:#777;
     --box-shadow:.5rem .5rem 0 rgba(22, 160, 133, .2);
@@ -49,41 +49,7 @@ section:nth-child(even){
     color:var(--green);
 }
 
-.btn{
-
-    display: inline-block;
-    margin-top: 1rem;
-    padding: .5rem;
-    padding-left: 1rem;
-    border:var(--border);
-    border-radius: .5rem;
-    box-shadow: var(--box-shadow);
-    color:var(--green);
-    cursor: pointer;
-    font-size: 1.7rem;
-    background: #fff;
-}
-
-.btn span{
-    padding:.7rem 1rem;
-    border-radius: .5rem;
-    background: var(--green);
-    color:#fff;
-    margin-left: .5rem;
-}
-
-.btn:hover{
- 
-    background: var(--green);
-    color:#fff;
-}
-
-.btn:hover span{
-
-    color: var(--green);
-    background:#fff;
-    margin-left: 1rem;
-}
+/* button style */
 
 .header{
     padding:2rem 9%;
@@ -102,15 +68,27 @@ section:nth-child(even){
     color: #fecc00;
     text-decoration-color: white;
 }
+.title{
+
+    font-size: 2rem;
+    color: hsl(49, 100%, 50%);
+    line-height: 1.8;
+    text-shadow: var(--text-shadow);
+    margin-right:180px;
+    margin-left: 20px;
+    
+}
 
 .ycp-logo {
     margin-bottom:30px;
-    justify-content: center;
     width: auto;
     height: 50px;
     margin-right: 10px;
-    margin-left: 0px;
+    margin-left:10px;
 }
+
+
+
 
 .header .logo i{
     color: #fecc00;
@@ -136,6 +114,7 @@ section:nth-child(even){
     display: none;
 }
 
+
 .home{
     display: flex;
     align-items: center;
@@ -144,6 +123,19 @@ section:nth-child(even){
     padding-top: 10rem;
 }
 
+.header .buttons .a{
+    position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #2b0318;
+  font-size: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: 40px;
+  letter-spacing: 4px
+}
 .home .image{
     flex:1 1 45rem;
 }
@@ -183,6 +175,112 @@ section:nth-child(even){
     line-height: 1.8;
     padding: 1rem 0;
 }
+/* REGISTER BUTTON */
+.home .content a{
+    position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #2b0318;
+  font-size: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: 40px;
+  letter-spacing: 4px
+}
+.home .content a:hover{
+    background: #2b0318;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #2b0318,
+                0 0 25px #03e9f4,
+                0 0 50px #2b0318,
+                0 0 100px #03e9f4;
+}
+
+.home .content a span {
+    position: absolute;
+    display: block;
+  }
+  
+.home .content a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #03e9f4);
+    animation: btn-anim1 1s linear infinite;
+  }
+
+  
+@keyframes btn-anim1 {
+    0% {
+      left: -100%;
+    }
+    50%,100% {
+      left: 100%;
+    }
+  }
+  
+  .home .content a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #03e9f4);
+    animation: btn-anim2 1s linear infinite;
+    animation-delay: .25s
+  }
+  
+  @keyframes btn-anim2 {
+    0% {
+      top: -100%;
+    }
+    50%,100% {
+      top: 100%;
+    }
+  }
+  
+  .home .content a span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #03e9f4);
+    animation: btn-anim3 1s linear infinite;
+    animation-delay: .5s
+  }
+  
+  @keyframes btn-anim3 {
+    0% {
+      right: -100%;
+    }
+    50%,100% {
+      right: 100%;
+    }
+  }
+  
+  .home .content a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #03e9f4);
+    animation: btn-anim4 1s linear infinite;
+    animation-delay: .75s
+  }
+  
+  @keyframes btn-anim4 {
+    0% {
+      bottom: -100%;
+    }
+    50%,100% {
+      bottom: 100%;
+    }
+  }
+
+  /* END BUTTON */
 
 .slideshow-container h3{
      font-size: 4.5rem;
@@ -281,9 +379,10 @@ section:nth-child(even){
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background-color:#2b0318 ;
+    background-color:#2b0318;
     margin: 20px;
     border-radius: 50px;
+
 }
 
 .icons-container .icons{
@@ -296,13 +395,13 @@ section:nth-child(even){
 
 .icons-container .icons i{
     font-size: 4.5rem;
-    color:var(--green);
+    color:#03e9f4;
     padding-bottom: .7rem;
 }
 
 .icons-container .icons h3{
     font-size: 4.5rem;
-    color:var(--black);
+    color:#03e9f4;
     padding: .5rem 0;
     text-shadow: var(--text-shadow);
 }
