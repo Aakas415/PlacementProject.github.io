@@ -15,15 +15,25 @@
     <!-- custom css file link  -->
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- Bootstrap 4 is here CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Bootstrap 4 is here JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
 </head>
 
 <body>
-
-    <!-- header section starts  -->
+    <div class="backgroundImage"></div>
+<div class="transparentText">
+      <!-- header section starts  -->
 
     <header class="header">
 
-        <a href="#" class="logo"> <i class="fas fa"></i>
+        <a href="index.html" class="logo"> <i class="fas fa"></i>
 
 
             <div class="ycp-logo">
@@ -32,13 +42,21 @@
 
         </a>
         <div class="title">
-            <h5>DKTE Society's</h5>
-            <h3>Yashwantrao Chavan Polytechnic, Ichalkaranji</h3>
+            <h4>DKTE Society's</h4>
+            <h2>Yashwantrao Chavan Polytechnic, Ichalkaranji</h2>
         </div>
-       
     </header>
     <!-- header section ends -->
- 
+
+<!-- Nevigation bar -->
+
+<div class="navbar">
+    <a class="active" href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+    <a href="Recruiters.html"><i class="fa fa-handshake" style="margin-right: 5px;""></i>Recruiters</a>
+    <a href="Placements.html"><i class="fa fa-check-square"></i> Placements</a>
+    <a href="Trainings.html"><i class="fa fa-trophy"></i> Trainings</a>
+    <a href="Compitative_Exams.html"><i class="fa fa-graduation-cap"></i> Compitative Exams</a>
+  </div>
     <!-- home section starts  -->
 
     <section class="home" id="home">
@@ -47,7 +65,7 @@
             <center>
                 <h3>TRAINING AND PLACEMENT CELL</h3>
 
-                <a href="Register.html">
+                <a href="Registration.html">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -61,12 +79,9 @@
         <div class="image">
             <img src="image/clg.jpg" alt="">
         </div>
-
-
     </section>
 
     <!-- home section ends -->
-
 
     <!-- icons section starts  -->
 
@@ -96,101 +111,70 @@
     <!-- icons section ends -->
 
     <!-- IMAGE SLIDE -->
-    <center>
-        <div class="slideshow-container">
-            <center>
-                <h3> LAST YEAR PLACED STUDENTS </h3>
-            </center>
-            <div class="mySlides fade">
-                <div class="numbertext">1 / 13</div>
-                <img src="image/campus1.jpeg" style="width:100%">
-                <div class="text">London, Ebgland</div>
+    <h1 class="heading"> our <span> Last Year Achivements</span> </h1>
+    <section class="gallery">
+        <div class="carousel">
+            
+            <input type="radio" id="image1" name="gallery-control" checked>
+            <input type="radio" id="image2" name="gallery-control">
+            <input type="radio" id="image3" name="gallery-control">
+            <input type="radio" id="image4" name="gallery-control">
+
+
+            <input type="checkbox" id="fullscreen" name="gallery-fullscreen-control"/>
+
+            <div class="wrap">
+
+                <figure>
+                    <label for="fullscreen">
+                        <img src="image/campus1.jpeg" alt="image1"/>
+                    </label>
+                </figure>
+
+                <figure>
+                    <label for="fullscreen">
+                        <img src="image/campus2.jpeg" alt="image2"/>
+                    </label>
+                </figure>
+
+                <figure>
+                    <label for="fullscreen">
+                        <img src="image/campus3.jpeg" alt="image3" />
+                    </label>
+                </figure>
+
+                <figure>
+                    <label for="fullscreen">
+                        <img src="image/campus4.jpeg" alt="image4"/>
+                    </label>
+                </figure>
             </div>
-            <div class="mySlides fade">
-                <div class="numbertext">2 / 13</div>
-                <img src="image/campus2.jpeg" style="width:100%">
-                <div class="text">Sunset in Romania</div>
-            </div>
-            <div class="mySlides fade">
-                <div class="numbertext">3 / 13</div>
-                <img src="image/campus3.jpeg" style="width:100%">
-                <div class="text">New York, USA</div>
-            </div>
-            <div class="mySlides fade">
-                <div class="numbertext">4 / 13</div>
-                <img src="image/campus4.jpeg" style="width:100%">
-                <div class="text">New York, USA</div>
-            </div>
-            <div class="mySlides fade">
-                <div class="numbertext">5 / 13</div>
-                <img src="image/campus5.jpeg" style="width:100%">
-                <div class="text">New York, USA</div>
-            </div>
-            <div class="mySlides fade">
-                <div class="numbertext">6 / 13</div>
-                <img src="image/campus6.jpeg" style="width:100%">
-                <div class="text">New York, USA</div>
-            </div>
-            <div class="mySlides fade">
-                <div class="numbertext">7 / 13</div>
-                <img src="image/campus7.jpeg" style="width:100%">
-                <div class="text">New York, USA</div>
-            </div>
-            <div class="mySlides fade">
-                <div class="numbertext">8 / 13</div>
-                <img src="image/campus8.jpeg" style="width:100%">
-                <div class="text">New York, USA</div>
-            </div>
-            <div class="mySlides fade">
-                <div class="numbertext">9 / 13</div>
-                <img src="image/campus9.jpeg" style="width:100%">
-                <div class="text">New York, USA</div>
-            </div>
-            <div class="mySlides fade">
-                <div class="numbertext">10 / 13</div>
-                <img src="image/campus10.jpeg" style="width:100%">
-                <div class="text">New York, USA</div>
-            </div>
-            <div class="mySlides fade">
-                <div class="numbertext">11 / 11</div>
-                <img src="image/campus11.jpeg" style="width:100%">
-                <div class="text">New York, USA</div>
-            </div>
-            <div class="mySlides fade">
-                <div class="numbertext">12 / 13</div>
-                <img src="image/campus12.jpeg" style="width:100%">
-                <div class="text">New York, USA</div>
-            </div>
-            <div class="mySlides fade">
-                <div class="numbertext">13 / 13</div>
-                <img src="image/campus13.jpeg" style="width:100%">
-                <div class="text">New York, USA</div>
+            <div class="thumbnails">
+
+                <div class="slider"><div class="indicator"></div></div>
+
+                <label for="image1" class="thumb" style="background-image: url('image/campus1.jpeg')"></label>
+
+                <label for="image2" class="thumb" style="background-image: url('image/campus2.jpeg')"></label>
+
+                <label for="image3" class="thumb" style="background-image: url('image/campus3.jpeg')"></label>
+
+                <label for="image4" class="thumb" style="background-image: url('image/campus4.jpeg')"></label>
             </div>
         </div>
-        <br>
-        <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-            <span class="dot" onclick="currentSlide(4)"></span>
-            <span class="dot" onclick="currentSlide(5)"></span>
-            <span class="dot" onclick="currentSlide(6)"></span>
-            <span class="dot" onclick="currentSlide(7)"></span>
-            <span class="dot" onclick="currentSlide(8)"></span>
-            <span class="dot" onclick="currentSlide(9)"></span>
-            <span class="dot" onclick="currentSlide(10)"></span>
-            <span class="dot" onclick="currentSlide(11)"></span>
-            <span class="dot" onclick="currentSlide(12)"></span>
-            <span class="dot" onclick="currentSlide(13)"></span>
-        </div>
-    </center>
+        <center>
+            <button type="button" class="btn btn-primary btn-lg"> Learn More</button>
+        </center>
+    </section>
+
+
     <!-- END IMAGE SLIDE -->
 
     <!-- services section starts  -->
 
     <section class="services" id="services">
 
-        <h1 class="heading"> our <span>Recruiters</span> </h1>
+        <h1 class="heading"> our <span>Placements</span> </h1>
 
         <div class="box-container">
 
@@ -198,28 +182,28 @@
                 <i class="fa fa-handshake"></i>
                 <h3>Upcoming Recruiters</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
-                <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
+                <button type="button"  class="btn btn-primary btn-lg"> Learn More</button>
             </div>
 
             <div class="box">
                 <i class="fa fa-check-square"></i>
                 <h3>Recruiters Result</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
-                <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
+                <button type="button" class="btn btn-primary btn-lg" > Learn More</button>
             </div>
 
             <div class="box">
                 <i class="fa fa-calendar"></i>
                 <h3>Recruiters at 2017-2018</h3>
                 <p>Click here and download List of Students Placed in the year.</p>
-                <a href="#" class="btn"> Download <span class="fas fa-chevron-right"></span> </a>
+                <button type="button" class="btn btn-primary btn-lg"> Learn More</button>
             </div>
 
             <div class="box">
                 <i class="fa fa-calendar-plus"></i>
                 <h3>Recruiters at 2018-2019</h3>
                 <p>Click here and download List of Students Placed in the year.</p>
-                <a href="#" class="btn"> Download <span class="fas fa-chevron-right"></span> </a>
+                <button type="button" class="btn btn-primary btn-lg"> Learn More</button>
             </div>
 
             <div class="box">
@@ -301,24 +285,7 @@
 
         <section class="book" id="book">
 
-            <h1 class="heading"> <span>Book</span> Appointment </h1>
-
-            <div class="row">
-
-                <div class="image">
-                    <img src="image/RM.png" alt="">
-                </div>
-
-                <form action="">
-                    <h3>book appointment</h3>
-                    <input type="text" placeholder="your name" class="box">
-                    <input type="number" placeholder="your number" class="box">
-                    <input type="email" placeholder="your email" class="box">
-                    <input type="date" class="box">
-                    <input type="submit" value="book now" class="btn">
-                </form>
-
-            </div>
+           
 
         </section>
 
@@ -332,7 +299,6 @@
 
             <div class="box-container">
 
-<<<<<<< HEAD
                 <div class="box">
                     <img src="image/pic-1.png" alt="">
                     <h3>john deo</h3>
@@ -371,46 +337,6 @@
                     </div>
                     <p class="text"></p>
                 </div>
-=======
-        <div class="box">
-            <img src="image/A.jpg" alt="">
-            <h3>Abhijeet Kamalakar</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-            <p class="text"></p>
-        </div>
-
-        <div class="box">
-            <img src="image/S.jpg" alt="">
-            <h3>Satej Pangire</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-            <p class="text"></p>
-        </div>
-
-        <div class="box">
-            <img src="image/P.jpeg" alt="">
-            <h3>Prathamesh Waghavade</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-            <p class="text"></p>
-        </div>
->>>>>>> 569d3469715ae1982e56ae8693782f0c4b318915
 
             </div>
 
@@ -426,7 +352,6 @@
 
             <div class="box-container">
 
-<<<<<<< HEAD
                 <div class="box">
                     <div class="image">
                         <img src="image/blog-1.jpg" alt="">
@@ -471,52 +396,6 @@
                         <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
                     </div>
                 </div>
-=======
-        <div class="box">
-            <div class="image">
-                <img src="image/" alt="">
-            </div>
-            <div class="content">
-                <div class="icon">
-                    <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2021 </a>
-                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
-                </div>
-                <h3>blog title goes here</h3>
-                <p>Bloge description goes here.</p>
-                <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="image/" alt="">
-            </div>
-            <div class="content">
-                <div class="icon">
-                    <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2021 </a>
-                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
-                </div>
-                <h3>blog title goes here</h3>
-                <p>Bloge description goes here.</p>
-                <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="image/" alt="">
-            </div>
-            <div class="content">
-                <div class="icon">
-                    <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2021 </a>
-                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
-                </div>
-                <h3>blog title goes here</h3>
-                <p>Bloge description goes here</p>
-                <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
-            </div>
-        </div>
->>>>>>> 569d3469715ae1982e56ae8693782f0c4b318915
 
             </div>
 
@@ -530,7 +409,6 @@
 
             <div class="box-container">
 
-<<<<<<< HEAD
                 <div class="box">
                     <h3>quick links</h3>
                     <a href="#"> <i class="fas fa-chevron-right"></i> home </a>
@@ -559,35 +437,6 @@
                     <a href="#"> <i class="fas fa-envelope"></i> anasbhai@gmail.com </a>
                     <a href="#"> <i class="fas fa-map-marker-alt"></i> mumbai, india - 400104 </a>
                 </div>
-=======
-        <div class="box">
-            <h3>quick links</h3>
-            <a href="#"> <i class="fas fa-chevron-right"></i> home </a>
-            <a href="#"> <i class="fas fa-chevron-right"></i> services </a>
-            <a href="#"> <i class="fas fa-chevron-right"></i> about </a>
-            <a href="#"> <i class="fas fa-chevron-right"></i> review </a>
-            <a href="#"> <i class="fas fa-chevron-right"></i> blogs </a>
-        </div>
-
-<!--         <div class="box">
-            <h3>our services</h3>
-            <a href="#"> <i class="fas fa-chevron-right"></i> dental care </a>
-            <a href="#"> <i class="fas fa-chevron-right"></i> message therapy </a>
-            <a href="#"> <i class="fas fa-chevron-right"></i> cardioloty </a>
-            <a href="#"> <i class="fas fa-chevron-right"></i> diagnosis </a>
-            <a href="#"> <i class="fas fa-chevron-right"></i> ambulance service </a>
-        </div> -->
-
-        <div class="box">
-            <h3>contact info</h3>
-            <a href="#"> <i class="fas fa-phone"></i> (0230) 2432793 </a>
-            <a href="#"> <i class="fas fa-phone"></i>(0230) 2436612 </a>
-            <a href="#"> <i class="fas fa-envelope"></i> dkteycp@gmail.com </a>
-            <a href="#"> <i class="fas fa-envelope"></i> aakashmohole@gmail.com</a>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i>
-DKTE's Yashwantrao Chavan Polytechnic, R.S. No.644, Sangli Road, Near Adinath Housing Society, Ichalkaranji 416115 </a>
-        </div>
->>>>>>> 569d3469715ae1982e56ae8693782f0c4b318915
 
                 <div class="box">
                     <h3>follow us</h3>
@@ -599,28 +448,9 @@ DKTE's Yashwantrao Chavan Polytechnic, R.S. No.644, Sangli Road, Near Adinath Ho
                     <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
                 </div>
 
-<<<<<<< HEAD
             </div>
 
             <div class="credit"> created by <span>mr. web designer</span> | all rights reserved </div>
-=======
-    </div>
-            <div>
-            <!-- Google Map Copied Code -->
-            <iframe src=
-"https://goo.gl/maps/7YEFwf7Tz1VxMfRZ7"
-                    width="400"
-                    height="300"
-                    frameborder="0"
-                    style="border:0;"
-                    allowfullscreen=""
-                    aria-hidden="false"
-                    tabindex="0">
-            </iframe>
-        </div>
-
-    <div class="credit"> created by <span>mr.Aakash Mohole </span> | all rights reserved </div>
->>>>>>> 569d3469715ae1982e56ae8693782f0c4b318915
 
         </section>
 
